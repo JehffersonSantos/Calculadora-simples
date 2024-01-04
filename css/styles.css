@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    background-color: #2a2929;
+    width: 300px;
+    height: 300px;
+    border-radius: 1rem;
+
+}
+
+.sinal_botao {
+    margin-top: 10px;
+}
+
+.resultado {
+
+}
+
+.resultado_anterior{
+    width: 300px;
+    height: 1rem;
+    font-size: 1rem;
+    padding-right: 1rem;
+    color: rgba(240, 248, 255, 0.352);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.resultado_atual{
+    width: 300px;
+    height: 50px;
+    font-size: 2rem;
+    padding-right: 1rem;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sinais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.botao_simbol {
+    width: 75px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 252, 248, 0.86);
+    border: solid 0.1px #2a2929;
+}
+
+.sinal {
+    border: none;
+    background-color: rgba(227, 220, 211, 0.86);
+    font-size: 1.5rem;
+
+}
+
+.container_2 {
+    display: flex;
+
+}
+
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 225px;
+
+}
+
+.botao_numerico {
+    width: 75px;
+    height: 47.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.86);
+    border: solid 0.1px #2a2929;
+    height: 43.75px;
+}
+
+button {
+    background-color: rgba(227, 220, 211, 0.86);
+}
+
+.equal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 157, 0, 0.918);
+    width: 75px;
+    height: 175px;
+    border-end-end-radius: 1rem;
+    border: solid 0.1px #2a2929;
+    
+}
+
+.borda {
+    border-bottom-left-radius:1rem ;
+}
+
+button {
+    border: none;
+}
+
+.igual {
+    background-color: rgba(239, 149, 6, 0.92);
+}
+
+
+button:hover {
+    cursor: pointer;
+    opacity: 10%;
+}
